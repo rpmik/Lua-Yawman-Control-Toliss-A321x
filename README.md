@@ -10,7 +10,7 @@ XPlane 12 FlyWithLua Script for Multifunction Yawman Arrow Controls
 
 # Requirements
 * [X-Plane 12](https://www.x-plane.com/) only
-* [Toliss A321](https://toliss.com/pages/a321) -- optionally with the Neo upgrad
+* [Toliss A321](https://toliss.com/pages/a321) -- optionally with the Neo upgrade
 * [FlyWithLua 2.8 for X-Plane 12](https://forums.x-plane.org/index.php?/files/file/82888-flywithlua-ng-next-generation-plus-edition-for-x-plane-12-win-lin-mac/)
 * [Yawman Arrow Controller](https://yawmanflight.com/)
 
