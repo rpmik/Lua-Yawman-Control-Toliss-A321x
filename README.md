@@ -10,19 +10,18 @@ XPlane 12 FlyWithLua Script for Multifunction Yawman Arrow Controls
 
 # Requirements
 * [X-Plane 12](https://www.x-plane.com/) only
-* [Toliss A20N](https://toliss.com/pages/a320-neo)
+* [Toliss A321](https://toliss.com/pages/a321) -- optionally with the Neo upgrad
 * [FlyWithLua 2.8 for X-Plane 12](https://forums.x-plane.org/index.php?/files/file/82888-flywithlua-ng-next-generation-plus-edition-for-x-plane-12-win-lin-mac/)
 * [Yawman Arrow Controller](https://yawmanflight.com/)
 
 # Installation
 Note that the current script does not modify your axes. You'll need to set up your Yawman Arrow's axes as you like.
 
-Save _Toliss A20N Yawman Multipress.lua_ to /X-Plane 12/Resources/plugins/FlyWithLua/Scripts
+Save _Toliss A321 Yawman Multipress.lua_ and/or _Toliss A21N Yawman Multipress.lua_ (Requires the Neo upgrade) to /X-Plane 12/Resources/plugins/FlyWithLua/Scripts
 
 Assignments closely matches Yawman's PMDG 777 mappings but there are notable differences. See Yawman's [discord](https://discord.gg/dcpTc5KP).
 
 # TODO
-* Fix Barometer STD Push/Pull
 * Implement radio tuning
 
 # Assignments are In Work!
