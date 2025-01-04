@@ -2,7 +2,7 @@
  Toliss A21N mapping for the Yawman Arrow By Ryan Mikulovsky, CC0 1.0.
  
  Initial commit: 2024-12-22
- Updated 1/3/2025 to include easier view edit code
+ Updated 1/3/2025 to include easier view edit code and require Gliding Kiwi as aircraft author
  
  Inspired by Yawman's mapping for the MSFS PMDG 777.
  Thanks for Thomas Nield for suggesting looking into Lua for better controller support in XP12. Button numbers and their variable names came from Thomas.
@@ -14,6 +14,7 @@
 -- use local to prevent other unknown Lua scripts from overwriting variables (or vice versa)
 
 local scriptedAircraft = "A21N"
+local scriptedAircraftAuthor = "Gliding Kiwi"
 
 local dref_lnav = "AirbusFBW/PullHDGSel"
 local dref_vnav = "AirbusFBW/PullAltitude"
@@ -144,7 +145,7 @@ local CurFrame = 0.0
 
 function multipressTolissA21N_buttons() 
     -- if aircraft is an A21N then procede
-    if PLANE_ICAO == scriptedAircraft then 
+    if PLANE_ICAO == scriptedAircraft and PLANE_AUTHOR == scriptedAircraftAuthor then 
         FRAME_COUNT = FRAME_COUNT + 1.0  
 		-- Base Config buttons that should almost always get reassigned except during a press
         if not STILL_PRESSED then -- avoid overwriting assignments during other activity
@@ -505,7 +506,7 @@ end
 
 
 -- Don't mess with other configurations
-if PLANE_ICAO == scriptedAircraft then 
+if PLANE_ICAO == scriptedAircraft and PLANE_AUTHOR == scriptedAircraftAuthor then 
 	clear_all_button_assignments()
 	
 --	set_axis_assignment(POLE_LEFT, "reverse", "reverse")
